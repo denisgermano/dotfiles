@@ -1,3 +1,8 @@
+# Source Prezto.
+echo 'if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then' >> ~/.zshrc
+echo '  source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"' >> ~/.zshrc
+echo 'fi' >> ~/.zshrc
+
 export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
 export WORKON_HOME=$HOME/.venvs

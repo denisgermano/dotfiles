@@ -63,6 +63,10 @@ mkdir ~/code
 ln -si  ~/dotfiles/.zshrc ~/.zshrc
 
 # zsh
+# Source Prezto.
+echo 'if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then' >> ~/.zshrc
+echo '  source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"' >> ~/.zshrc
+echo 'fi' >> ~/.zshrch
 echo 'export PYENV_ROOT="$HOME/.pyenv"'>> ~/.zshrc
 echo 'export PATH="$PYENV_ROOT/bin:$PATH"'>> ~/.zshrc
 echo 'export WORKON_HOME=$HOME/.venvs'>> ~/.zshrc
