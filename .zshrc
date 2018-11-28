@@ -1,7 +1,10 @@
+#
+# Executes commands at the start of an interactive session.
+#
 # Source Prezto.
-echo 'if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then' >> ~/.zshrc
-echo '  source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"' >> ~/.zshrc
-echo 'fi' >> ~/.zshrc
+if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
+  source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
+fi
 
 export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
