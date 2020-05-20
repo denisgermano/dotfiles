@@ -1,5 +1,8 @@
-[user]
-	email = dlcgermano@gmail.com
-	name = Denis Germano
 [core]
 	editor = vim
+    excludesFile = ~/.gitignoreglobal
+[user]
+	name = Denis Germano
+	email = dlcgermano@gmail.com
+[submodule]
+	recurse = true
