@@ -1,6 +1,6 @@
 [core]
 	editor = vim
-    excludesFile = ~/.gitignoreglobal
+	excludesFile = ~/.gitignoreglobal
 [user]
 	name = Denis Germano
 	email = dlcgermano@gmail.com
